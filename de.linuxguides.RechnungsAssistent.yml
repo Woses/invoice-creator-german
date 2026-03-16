@@ -17,8 +17,8 @@ modules:
       - cp -r chromium /app/bin/chromium
     sources:
       - type: archive
-        url: https://github.com/Jean28518/invoice-creator-german/releases/download/v0.2.0/rechnungs-assistent-bundle-0.2.0.zip
-        sha256: 1e99c33b5c1700d95d907a9b7bbecb0c7f6bb9c32aafe2808c42b3b66c54c172
+        path: /home/woses/Dokumente/Repos/invoice-creator-german/rechnungs-assistent-bundle-1.4.0.zip
+        sha256: fe4f3e1d3a1e9bdb1cc899c49e0f214f50c0993bd4b621b563867d211233c2fb
 finish-args:
   - "--socket=fallback-x11"
   - "--device=dri"
